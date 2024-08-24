@@ -17,19 +17,19 @@ The Makersharks Search API is a Spring Boot application designed to help buyers 
 - **`/src/main/java/com/makersharks/api/service`** - Contains service classes that handle business logic.
 - **`/src/main/java/com/makersharks/api/controller`** - Contains RESTful API controllers.
 
-#API Endpoints:-
-- **POST /api/supplier/query
-- **Description: Retrieve a list of manufacturers based on search criteria.
-- **Request Body Example:
-- **json
-- **Copy code
-- **{
- - ** "location": "India",
-  - **"natureOfBusiness": "SMALL_SCALE",
- - ** "manufacturingProcesses": ["3D_PRINTING"]
-- **}
+##API Endpoints:-
+POST /api/supplier/query
+Description: Retrieve a list of manufacturers based on search criteria.
+Request Body Example:
+json
+Copy code
+{
+      "location": "India",
+      "natureOfBusiness": "SMALL_SCALE",
+      "manufacturingProcesses": ["3D_PRINTING"]
+  }
 
-- **Feel free to modify the content to better fit your project's details and requirements!
+  Feel free to modify the content to better fit your project's details and requirements!
 
 
 

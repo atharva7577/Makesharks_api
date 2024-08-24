@@ -17,16 +17,7 @@ The Makersharks Search API is a Spring Boot application designed to help buyers 
 - **`/src/main/java/com/makersharks/api/service`** - Contains service classes that handle business logic.
 - **`/src/main/java/com/makersharks/api/controller`** - Contains RESTful API controllers.
 
-Configure Database:
-
-Update the application.properties file with your database connection details.
-properties
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-
-API Endpoints
+#API Endpoints:-
 POST /api/supplier/query
 Description: Retrieve a list of manufacturers based on search criteria.
 Request Body Example:

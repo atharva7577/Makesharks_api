@@ -38,12 +38,6 @@ Copy code
   "manufacturingProcesses": ["3D_PRINTING"]
 }
 
-
-1. **Repository URL:** Replace `https://github.com/your-username/your-repo.git` with the actual URL of your GitHub repository.
-2. **Database Configuration:** Adjust the `application.properties` section with your specific database connection details.
-3. **Request and Response Examples:** Customize the examples to match the actual request and response structure of your API.
-4. **License:** Update the license section according to your project's license.
-
 Feel free to modify the content to better fit your project's details and requirements!
 
 
